@@ -128,6 +128,16 @@ std::vector<int> SubtractN(std::vector<int>, int n);
 
 // subtracts n to each element of the vector
 std::vector<double> SubtractN(std::vector<double>, double n);
+
+double sub(double a, double b) {
+	return a-b;
+}
+
+int GetFourteen() {
+	return 14;
+}
+
+
 int isThree(int a){
   return a == 3; 
 }
