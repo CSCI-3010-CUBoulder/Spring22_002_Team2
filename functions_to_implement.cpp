@@ -113,5 +113,5 @@ std::vector<int> SubtractN(std::vector<int>, int n);
 std::vector<double> SubtractN(std::vector<double>, double n);
 
 void bad(){
-std::cout<<"bad"<<std::endl;
+    std::cout<<"bad"<<std::endl;
 }
