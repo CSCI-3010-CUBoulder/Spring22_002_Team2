@@ -24,6 +24,7 @@ int RemoveTwos(int original) {
     }
 }
 
+
 // takes a vector of integers and removes all elements evenly divisible by the passed in int
 std::vector<int> MultiplesFilter(std::vector<int>, int divides_by);
 
@@ -127,3 +128,7 @@ std::vector<int> SubtractN(std::vector<int>, int n);
 
 // subtracts n to each element of the vector
 std::vector<double> SubtractN(std::vector<double>, double n);
+int isThree(int a){
+  return a == 3; 
+}
+
