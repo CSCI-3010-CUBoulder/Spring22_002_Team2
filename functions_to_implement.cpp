@@ -13,5 +13,4 @@ return a + b;
 
 int isThree(int a){
   return a == 3; 
->>>>>>> main
 }
