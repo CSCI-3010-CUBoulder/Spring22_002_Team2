@@ -18,7 +18,16 @@ std::vector<int> MatchVectors(std::vector<int> a, std::vector<int> b);
 
 // divides an input integer by 2 until it is impossible to do so, then returns the final number.
 // (16 = 2 * 2 * 2 * 2 * 1 -> 1, 7 -> 7, 26 = 2 * 13 -> 13, 52 = 2 * 2 * 13 -> 13)
+<<<<<<< HEAD
 int RemoveTwos(int original);
+=======
+int RemoveTwos(int original) {
+    while (original/2 > 0) {
+        original /= 2;
+    }
+}
+
+>>>>>>> main
 
 // takes a vector of integers and removes all elements evenly divisible by the passed in int
 std::vector<int> MultiplesFilter(std::vector<int>, int divides_by);
@@ -30,10 +39,29 @@ std::vector<bool> EvenMask(std::vector<int>);
 std::vector<bool> OddMask(std::vector<int>);
 
 // Sums all numbers in a vector and returns the resulting value
+<<<<<<< HEAD
 int Sum(std::vector<int> nums);
 
 // Multiplies all numbers in a vector together and returns the resulting value
 int Product(std::vector<int> nums);
+=======
+int Sum(std::vector<int> nums) {
+    int sum = 0;
+    for (int n : nums) {
+        sum += n;
+    }
+    return sum;
+}
+
+// Multiplies all numbers in a vector together and returns the resulting value
+int Product(std::vector<int> nums) {
+    int prod = 1;
+    for (int n : nums) {
+        prod *= n;
+    }
+    return prod;
+}
+>>>>>>> main
 
 // Adds an integer n to each element of a given vector
 std::vector<int> VectorPlusN(std::vector<int> v, int n);
@@ -113,5 +141,18 @@ std::vector<int> SubtractN(std::vector<int>, int n);
 std::vector<double> SubtractN(std::vector<double>, double n);
 
 void bad(){
-std::cout<<"bad"<<std::endl;
+    std::cout<<"bad"<<std::endl;
 }
+double sub(double a, double b) {
+	return a-b;
+}
+
+int GetFourteen() {
+	return 14;
+}
+
+
+int isThree(int a){
+  return a == 3; 
+}
+
