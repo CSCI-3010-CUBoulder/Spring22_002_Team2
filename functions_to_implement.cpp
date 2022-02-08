@@ -10,3 +10,8 @@ std::cout << "Hello" << std::endl;
 int add(int a , int b){
 return a + b;
 }
+
+int isThree(int a){
+  return a == 3; 
+>>>>>>> main
+}
