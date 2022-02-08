@@ -10,3 +10,7 @@ double sub(double a, double b) {
 int GetFourteen() {
 	return 14;
 }
+
+int isThree(int a){
+  return a == 3; 
+}
